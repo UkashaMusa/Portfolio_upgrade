@@ -41,12 +41,12 @@ export const navLinks = [
 ];
 
 const services = [
+  // {
+  //   title: "Web Developer",
+  //   icon: web,
+  // },
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "Reactjs Developer",
     icon: mobile,
   },
   {
@@ -116,55 +116,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "EDUGALITECH",
-    icon: starbucks,
+    title: "Reactjs",
+    company_name: "VIS worldwide",
+    icon: 'https://visworldwide.com/asset/styles/Web%20Logo%20Org%20White.png',
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
+ 
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "VISA",
+    title: "Blender3D Artist",
+    company_name: "EDUGALITECH",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and optimized 3D visual assets using Blender for educational and promotional content.",
     ],
   },
   {
-    title: "Web Developer",
+    title: "ISC2 Member",
     company_name: "ISC2",
-    icon: shopify,
+    icon: 'https://edge.sitecorecloud.io/internationf173-xmc4e73-prodbc0f-9660/media/Project/ISC2/Main/Media/logos/logo.svg?iar=0',
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Active member of ISC2, demonstrating a strong commitment to cybersecurity best practices .",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Chief Executive Officer",
     company_name: "TECHSHAPER",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#383E56",
+    date: "Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As CEO of TechShaper, lead the company’s strategic vision to empower clients in shaping their technology solutions maintaining.",
     ],
   },
 ];
@@ -198,17 +187,13 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Manage Landing Page",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Manage Landing Page is a clean and responsive user interface designed to promote a project management SaaS platform called Manage. The focus of this frontend-only project is to visually communicate the platform’s value proposition, with well-structured sections highlighting key features such as team collaboration.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
@@ -216,40 +201,44 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UkashaMusa/Manage-UI",
   },
   {
-    name: "Job IT",
+    name: "U-MEDIC – Doctor Appointment",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "U-MEDIC is a full-stack medical appointment booking web application that allows users to find trusted doctors, view specialities, and book appointments online. The platform also integrates secure online payments via PayPal for a smooth and hassle-free experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind Css",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MangoDB",
+        color: "green-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UkashaMusa/U-MEDIC_UI_FRONTEND/tree/main",
   },
   {
-    name: "Trip Guide",
+    name: "Internazionale Lisa Academy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Internazionale Lisa Academy is a modern and responsive educational website built to represent a global learning institution. The site was developed using React.js for dynamic and efficient user interfaces and styled with Tailwind CSS for clean, responsive layouts.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Web3D form",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +247,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UkashaMusa/internazionale-lisa-academy",
   },
 ];
 

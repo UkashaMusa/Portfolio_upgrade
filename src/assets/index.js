@@ -22,14 +22,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import meta from "./company/techshaperlogo.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tesla from "./company/edugalitech_rw_logo_1.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./preview_of_Project.png";
+import jobit from "./umedic.png";
+import tripguide from "./previewofinternazionale.png";
 
 export {
   logo,
