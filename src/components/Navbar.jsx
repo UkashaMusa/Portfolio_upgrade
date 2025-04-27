@@ -17,7 +17,7 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0)
           }}>
-          <img src={logo} alt='myLogo' className='w-9 h-9 object-contain' />
+          <img src="https://static.vecteezy.com/system/resources/previews/011/604/025/non_2x/mu-logo-mu-design-blue-and-red-mu-letter-mu-letter-logo-design-initial-letter-mu-linked-circle-uppercase-monogram-logo-vector.jpg" alt='myLogo' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Musa &nbsp; <span className='sm:block hidden '> | Ukasha</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10 '>
